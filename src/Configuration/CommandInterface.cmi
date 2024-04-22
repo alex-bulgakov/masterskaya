@@ -6,7 +6,7 @@
     <subsystems>Subsystem.Производство</subsystems>
     <subsystems>Subsystem.Склады</subsystems>
     <subsystems>Subsystem.Деньги</subsystems>
-    <subsystems>Subsystem.Отчеты</subsystems>
+    <subsystems>Subsystem.мскОтчеты</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>
