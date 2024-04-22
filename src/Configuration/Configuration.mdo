@@ -47,7 +47,7 @@
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Производство</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
-  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.мскОтчеты</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.Склады</subsystems>
@@ -357,7 +357,7 @@
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ОтчетКроссТаблица</commonPictures>
   <commonPictures>CommonPicture.ОтчетТаблица</commonPictures>
-  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.КартинкаОтчеты</commonPictures>
   <commonPictures>CommonPicture.Оформление</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>

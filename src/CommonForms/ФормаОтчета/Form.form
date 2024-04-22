@@ -8350,7 +8350,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Отчеты</picture>
+      <picture>CommonPicture.КартинкаОтчеты</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

@@ -841,7 +841,7 @@
       <type>Popup</type>
       <extInfo xsi:type="form:PopupGroupExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Отчеты</picture>
+          <picture>CommonPicture.КартинкаОтчеты</picture>
         </picture>
         <representation>PictureAndText</representation>
       </extInfo>
