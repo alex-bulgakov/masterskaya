@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d027b01-7115-4ba0-8354-1b3d8df98b4b">
+  <producedTypes>
+    <containerType typeId="421211b2-7566-4a18-be02-073882be5ccd" valueTypeId="0baafd82-04df-466d-b973-1c1383cbd791"/>
+  </producedTypes>
+  <name>Комментарий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

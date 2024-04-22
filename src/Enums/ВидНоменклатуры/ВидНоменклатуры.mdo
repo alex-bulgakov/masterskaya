@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e68da28-fc1d-4041-ab00-bbde523623fc">
+  <producedTypes>
+    <refType typeId="e75a65ce-75d5-492e-baec-0247c2bea959" valueTypeId="bfbb25c9-fcc8-4ba5-b72c-0d048cd872f8"/>
+    <listType typeId="50a1e9e7-4d45-4e43-90a6-b57df18d5b7e" valueTypeId="9ff8c4d4-656c-452d-b846-d80d6fe2e1f5"/>
+    <managerType typeId="a8a3a726-27d5-42e4-b67b-fcc3cbca3e11" valueTypeId="4c64d5af-a08e-4ede-bccb-6480f2f693fd"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86b14602-989b-4151-bd22-a3605f43182c">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df1c5484-9ea8-4457-8676-01dec0271890">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c171b49-5301-4d6f-ad58-4818e7f0abae">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee0fd53e-8a49-4187-aac0-fcab5be09b1d">
+    <name>Инструмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструмент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

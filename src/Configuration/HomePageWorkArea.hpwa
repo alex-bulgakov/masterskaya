@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
+  <columns>
+    <items>
+      <form>Document.ПриобретениеТоваровИУслуг.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
+      <form>Document.РеализацияТоваровИУслуг.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+  <columns>
+    <items>
+      <form>Document.ПриходнаяНакладная.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
+      <form>Document.РасходнаяНакладная.Form.ФормаСписка</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+</hpwa:HomePageWorkArea>

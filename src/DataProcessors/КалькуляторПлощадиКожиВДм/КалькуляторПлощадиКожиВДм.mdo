@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bb051b7-8f4c-4a82-a688-c3ef24178412">
+  <producedTypes>
+    <objectType typeId="69f67673-8cd2-43d2-b48f-a06e20c89d61" valueTypeId="7bcc96a8-9299-4db8-b93b-2b75eeac742a"/>
+    <managerType typeId="629d9f64-23fe-4483-bf18-c66fe46fc2ed" valueTypeId="021ea9f8-d4dc-4ed2-ad59-ae607b2e20e0"/>
+  </producedTypes>
+  <name>КалькуляторПлощадиКожиВДм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор площади кожи в дм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КалькуляторПлощадиКожиВДм.Form.Форма</defaultForm>
+  <forms uuid="f1e2fbb9-b604-4b44-bbcb-a7a5a7dc1702">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

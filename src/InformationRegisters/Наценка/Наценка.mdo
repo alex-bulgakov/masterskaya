@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0beb6501-ab15-4fdc-bb5c-5c27855415e0">
+  <producedTypes>
+    <selectionType typeId="7fdf8799-0f43-4ffa-9e51-f24e99c66450" valueTypeId="88aa9965-149c-4817-a087-2d748d65bb8b"/>
+    <listType typeId="1847e177-4cf4-4eab-a5f9-3eca152effc4" valueTypeId="8fc0fd9e-41e8-469f-9e8a-45fb540f22fa"/>
+    <managerType typeId="70e68a71-5d1b-4fed-af3f-e68f4db21e9c" valueTypeId="35e011e5-7e19-44a1-ad34-016b7d67058f"/>
+    <recordSetType typeId="a350c8ca-727f-42c5-b6f2-454f4b081bd4" valueTypeId="ddf3d2e1-38f2-4f9c-bdd8-bc0440816d2d"/>
+    <recordKeyType typeId="de9a3425-8ed1-455d-b4ce-5ed256cbecf7" valueTypeId="f970ff8c-d6ee-4d36-ac12-caa69f18d8b8"/>
+    <recordType typeId="da00648e-76b2-4b96-a5b3-e0dfef08c68b" valueTypeId="34994d03-6580-4fa0-9a35-5888c60b127a"/>
+    <recordManagerType typeId="5f9a137e-6c2d-49c2-8673-08fdf806cf9c" valueTypeId="2013e05d-0bde-4d1b-8789-d3424ae74c3c"/>
+  </producedTypes>
+  <name>Наценка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Наценка.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4a46ec32-b16e-4c3a-9b11-127b468bc51b">
+    <name>Наценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="acf289cf-5c96-42ee-bec5-92d4221f01af">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

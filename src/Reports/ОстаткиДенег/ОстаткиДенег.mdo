@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71f03822-80c2-457c-b886-11a35a2e7605">
+  <producedTypes>
+    <objectType typeId="e8ae5f58-2963-4392-95fc-b3e25a0a337c" valueTypeId="6bd02a52-dd4c-43c4-8fcf-20c266e24464"/>
+    <managerType typeId="7abace14-bb62-49d0-9321-b1e6a2ae1505" valueTypeId="00b7c0f9-3ba1-4a97-a1fe-89b53241884b"/>
+  </producedTypes>
+  <name>ОстаткиДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиДенег.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="713c9d36-f2d6-4575-92d7-3130e9a1ae34">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

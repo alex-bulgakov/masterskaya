@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b224ffc-a127-4f93-9102-7cf6defc8d4b">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.мскДеньги</picture>
+  </picture>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.СтатьиДоходовоИРасходов</content>
+  <content>Document.ПриходДенег</content>
+  <content>Document.РасходДенег</content>
+</mdclass:Subsystem>

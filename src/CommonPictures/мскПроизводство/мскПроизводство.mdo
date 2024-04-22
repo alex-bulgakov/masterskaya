@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6726e74-ad01-4973-83c3-5ebb6b04d3c0">
+  <name>мскПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мск производство</value>
+  </synonym>
+</mdclass:CommonPicture>

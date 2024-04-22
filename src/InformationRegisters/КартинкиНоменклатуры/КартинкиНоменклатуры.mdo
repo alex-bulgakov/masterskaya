@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fffe7d3-38d0-4c83-84e5-c034ff755383">
+  <producedTypes>
+    <selectionType typeId="e48e3329-7775-4217-9835-90a128a016a5" valueTypeId="8a9ec520-c963-45c2-9cc7-6b97b07cbc9b"/>
+    <listType typeId="0131f534-6eb4-4f1e-b7f9-f540cfaf8fe9" valueTypeId="73fb7cd0-208c-484e-ad97-df75065812c7"/>
+    <managerType typeId="4b97411e-bdc9-4bd7-a4cb-9a4451b47599" valueTypeId="5363554a-4f41-4784-94d2-2abbeb9b1ebb"/>
+    <recordSetType typeId="dee63f5b-bc63-492b-b436-1e8b82e9ac17" valueTypeId="c530fbac-4619-417c-9b15-1c50405a1e85"/>
+    <recordKeyType typeId="ddfd576a-1cb5-44a8-8a71-902e19e2d3da" valueTypeId="d908c01a-9fa8-430e-8737-d82f35cc2354"/>
+    <recordType typeId="ead4c9c4-ca98-4d7e-834b-b29eff28dc2d" valueTypeId="5feafddc-255b-4906-9271-4adae2650320"/>
+    <recordManagerType typeId="6c5e8227-16ca-4c9f-8cfa-5d24390ea8be" valueTypeId="52d5180e-0853-4228-b2e9-632acfe70b7c"/>
+  </producedTypes>
+  <name>КартинкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинки номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="36dc8078-509a-4ac0-83bc-bfed1a232ec4">
+    <name>ДвоичныеДанныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двоичные данные файла</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5c9ae2bf-6864-4179-9560-e937719e8c2a">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

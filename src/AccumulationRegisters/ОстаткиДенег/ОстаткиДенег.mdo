@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="205ba317-a8f6-46a5-92e3-993e6dea3af4">
+  <producedTypes>
+    <selectionType typeId="0b0a66e5-7e40-4ce9-a021-71e9ab922592" valueTypeId="6a4ee89f-126f-4eb6-a0a2-93afea003247"/>
+    <listType typeId="0de4705e-f674-4276-99c9-8ee72c0b317f" valueTypeId="1af10984-f908-41d4-9e94-096a4f6f158c"/>
+    <managerType typeId="e8373415-0024-4791-ba35-16b7ee989185" valueTypeId="af96cc90-3ec7-4639-90fb-874a5f6b11af"/>
+    <recordSetType typeId="bce44c79-5901-4ab5-b822-e76669859738" valueTypeId="57ad0bf4-bb32-47c5-9f6c-64830dc4eb9c"/>
+    <recordKeyType typeId="ef02c5f0-a0c3-4b74-9973-2da6e36e181a" valueTypeId="9ce02dba-c855-4c45-90b4-ef9ebec16898"/>
+    <recordType typeId="f4db0a78-973b-4bd0-8f97-9c96a3311432" valueTypeId="1a503ee3-cd99-4085-b5e1-4de942fa7717"/>
+  </producedTypes>
+  <name>ОстаткиДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8092209d-7292-4649-9270-ff028549b336">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="211151e3-d754-4e25-af81-d1f8745b9890">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="67a256fc-d4fe-4e95-977d-a78ba9d86d0c">
+    <name>СтатьяДоходовИРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов и расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовоИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

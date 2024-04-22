@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cai:ClientApplicationInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cai="http://g5.1c.ru/v8/dt/cai">
+  <top xsi:type="cai:CaiPanel" id="54ee9840-f208-4754-9b99-281926eb3954" name="OpenedPanel"/>
+  <left xsi:type="cai:CaiPanel" id="6523b32f-238c-4381-b599-7ed295d7795f" name="SectionPanel" displayType="PictureAndText"/>
+  <right xsi:type="cai:CaiPanel" id="884f2c9e-7f60-48aa-b39e-b12d1ac322bc" name="FavoritePanel"/>
+  <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
+  <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
+</cai:ClientApplicationInterface>
